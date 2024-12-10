@@ -1,80 +1,455 @@
-/* Сброс стилей для всех элементов */
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: none;
-  text-decoration: none;
-  background: none;
-  -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    -webkit-font-smoothing: antialiased;
 }
 
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-
-/* Общий стиль для .div и всех его потомков */
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .div,
 .div * {
   box-sizing: border-box;
 }
-
-/* Стиль основного контейнера */
 .div {
   background: #ffffff;
-  height: 1642px;
+  height: 983px;
   position: relative;
   overflow: hidden;
 }
-
-/* Стиль фона меню */
-.menu-bg {
-  background: #5f165d;
+.div2 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "TtNorms-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 700;
+  position: absolute;
+  left: 360px;
+  top: 196px;
+}
+.div3 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "TtNorms-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 700;
+  position: absolute;
+  left: 340px;
+  top: 278px;
+}
+.div4 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--divider, #c8cacb);
+  border-width: 1px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 860px;
+  position: absolute;
+  left: 310px;
+  top: 480px;
+}
+.div5 {
+  color: var(--text-grey, #838688);
+  text-align: left;
+  font-family: "Exo2-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 700;
+  position: relative;
+}
+.div6 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--divider, #c8cacb);
+  border-width: 1px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 860px;
+  position: absolute;
+  left: 310px;
+  top: 614px;
+}
+._1-item {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-91 {
+  border-radius: 4px;
+  width: 50px;
+  height: 61px;
+  position: absolute;
+  left: 350px;
+  top: 357px;
+  object-fit: cover;
+}
+.xiaomi-redmi {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: var(--body-text-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  line-height: var(--body-text-line-height, 152%);
+  font-weight: var(--body-text-font-weight, 500);
+  position: absolute;
+  left: 440px;
+  top: 361px;
+  width: 280px;
+}
+.quantity {
+  width: 100px;
+  height: 48px;
+  position: static;
+}
+.input {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--divider, #c8cacb);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 814px;
+  top: 358px;
+}
+._1 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.div7 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 868px;
+  top: 372px;
+  overflow: visible;
+}
+.div8 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 788px;
+  top: 372px;
+  overflow: visible;
+}
+.price {
+  width: 74px;
+  height: 45px;
+  position: static;
+}
+._15000 {
+  color: var(--text-grey, #838688);
+  text-align: left;
+  font-family: "Exo2-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-decoration: line-through;
+  position: absolute;
+  left: 958px;
+  top: 356px;
+}
+._10-000 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: var(--body-text-bold-font-family, "TtNorms-Bold", sans-serif);
+  font-size: var(--body-text-bold-font-size, 16px);
+  line-height: var(--body-text-bold-line-height, 150%);
+  letter-spacing: var(--body-text-bold-letter-spacing, 0.5px);
+  font-weight: var(--body-text-bold-font-weight, 700);
+  position: absolute;
+  left: 958px;
+  top: 377px;
+}
+.delete {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 1092px;
+  top: 358px;
+  overflow: visible;
+}
+.line-46 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--divider, #c8cacb);
+  border-width: 1px 0 0 0;
+  width: 800px;
+  height: 0px;
+  position: absolute;
+  left: 340px;
+  top: 452px;
+}
+.line-47 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--divider, #c8cacb);
+  border-width: 1px 0 0 0;
+  width: 800px;
+  height: 0px;
+  position: absolute;
+  left: 340px;
+  top: 263px;
+}
+.total {
+  width: 420px;
+  height: 416px;
+  position: absolute;
+  left: 1190px;
+  top: 248px;
+}
+.rectangle-87 {
+  background: #efefef;
+  border-radius: 8px;
   width: 100%;
-  height: 3.65%;
+  height: 85.1%;
   position: absolute;
   right: 0%;
   left: 0%;
-  bottom: 90.68%;
-  top: 5.66%;
+  bottom: 14.9%;
+  top: 0%;
 }
-
-/* Стиль иконки меню */
+.div9 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  bottom: 84.62%;
+  top: 7.21%;
+  height: 8.17%;
+}
+._2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 85.71%;
+  height: 5.77%;
+  position: absolute;
+  right: 7.14%;
+  left: 7.14%;
+  bottom: 64.18%;
+  top: 30.05%;
+}
+.div10 {
+  color: #838688;
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+.div11 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+._12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 85.71%;
+  height: 5.77%;
+  position: absolute;
+  right: 7.14%;
+  left: 7.14%;
+  bottom: 74.76%;
+  top: 19.47%;
+}
+._13 {
+  color: #838688;
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+._10-0002 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+.to-pay {
+  position: absolute;
+  inset: 0;
+}
+.div12 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+  position: absolute;
+  right: 68.81%;
+  left: 7.14%;
+  width: 24.05%;
+  bottom: 39.42%;
+  top: 53.61%;
+  height: 6.97%;
+  white-space: nowrap;
+}
+._10-0003 {
+  color: var(--text-main, #070c11);
+  text-align: left;
+  font-family: "Exo2-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 235px;
+}
+.line-462 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #5f165d;
+  border-width: 1px 0 0 0;
+  width: 85.71%;
+  height: 0%;
+  position: absolute;
+  right: 7.14%;
+  left: 7.14%;
+  bottom: 56.97%;
+  top: 43.03%;
+}
+.sign-in {
+  background: #838688;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 11.54%;
+  position: absolute;
+  left: 30px;
+  bottom: 22.12%;
+  top: 66.35%;
+}
+.div13 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Exo2-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  position: relative;
+}
+.terms-of-use {
+  position: absolute;
+  inset: 0;
+}
+.div14 {
+  text-align: left;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 59px;
+  bottom: 0px;
+  width: 326px;
+}
+.div-14-span {
+  color: var(--text-main, #070c11);
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+}
+.div-14-span2 {
+  color: #5f165d;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+}
+.checkbox {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  bottom: 15px;
+  overflow: visible;
+}
+.menu-bg {
+  background: #5f165d;
+  width: 100%;
+  height: 6.1%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 84.44%;
+  top: 9.46%;
+}
 .menu-icon {
   width: 1.67%;
-  height: 1.95%;
+  height: 3.26%;
   position: absolute;
   right: 81.25%;
   left: 17.08%;
-  bottom: 91.53%;
-  top: 6.52%;
+  bottom: 85.86%;
+  top: 10.89%;
   overflow: visible;
 }
-
-/* Стиль заголовка "Каталог товаров" */
-.div2 {
+.div15 {
   color: #ffffff;
   text-align: left;
   font-family: "Exo2-Medium", sans-serif;
@@ -84,497 +459,62 @@
   right: 74.22%;
   left: 19.17%;
   width: 6.61%;
-  bottom: 91.96%;
-  top: 6.88%;
-  height: 1.16%;
+  bottom: 86.57%;
+  top: 11.5%;
+  height: 1.93%;
 }
-
-/* Стиль заголовка "Актуальные предложения" */
-.left-h-3 {
-  color: #363a45;
-  text-align: left;
-  font-family: var(--h2-font-family, "TtNorms-Bold", sans-serif);
-  font-size: var(--h2-font-size, 32px);
-  line-height: var(--h2-line-height, 120%);
-  font-weight: var(--h2-font-weight, 700);
+.div16 {
   position: absolute;
-  white-space: nowrap;
-  left: 360px;
-  top: 445px;
-  width: 403px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  inset: 0;
 }
-
-/* Стиль контейнера для карточек товаров */
-.frame-160 {
-  display: flex;
-  flex-direction: row;
-  gap: 23px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 520px;
-}
-
-/* Стиль отдельной карточки товара */
-.div4 {
-  background: #ffffff;
-  border-radius: 8.01px;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
-  flex-shrink: 0;
-  width: 214px;
-  height: 250px;
-  position: relative;
-  box-shadow: var(--shadow-1-box-shadow, 1px 2px 16px 3px rgba(54, 58, 69, 0.08));
-  overflow: hidden;
-}
-
-/* Стиль внутренней части карточки товара */
-.frame-29 {
-  width: 215px;
-  height: 250px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-/* Стиль блока с изображением товара */
-.frame-78 {
-  padding: 15px 54px 15px 54px;
-  width: 100%;
-  height: 166px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: calc(50% - 125px);
-}
-
-/* Стиль изображения товара */
-.image-23 {
-  width: 56.85%;
-  height: 100%;
-  position: absolute;
-  right: 21.57%;
-  left: 21.57%;
-  bottom: 0%;
-  top: 0%;
-  object-fit: cover;
-}
-
-/* Стиль кнопки "лайк" */
-.btn-like-default {
-  width: 7.44%;
-  height: 8.43%;
-  position: absolute;
-  right: 7.04%;
-  left: 85.51%;
-  bottom: 81.93%;
-  top: 9.64%;
-  overflow: visible;
-}
-
-/* Стиль информации о товаре */
-.frame-152 {
-  padding: 8px 15px 8px 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 214px;
-  position: absolute;
-  left: 0px;
-  bottom: -0.41px;
-  top: 166.4111328125px;
-  overflow: hidden;
-}
-
-/* Стиль названия товара */
-.left-h-32 {
-  color: #363a45;
-  text-align: left;
-  font-family: var(--body-text-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--body-text-font-size, 16px);
-  line-height: var(--body-text-line-height, 152%);
-  font-weight: var(--body-text-font-weight, 500);
-  position: relative;
-  width: 184px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль цены товара */
-.left-h-33 {
-  color: #5f165d;
-  text-align: left;
-  font-family: var(--body-text-bold-font-family, "TtNorms-Bold", sans-serif);
-  font-size: var(--body-text-bold-font-size, 16px);
-  line-height: var(--body-text-bold-line-height, 150%);
-  letter-spacing: var(--body-text-bold-letter-spacing, 0.5px);
-  font-weight: var(--body-text-bold-font-weight, 700);
-  position: relative;
-  width: 160px;
-  display: flex;
-  align-items: left; 
-  justify-content: left; /* Горизонтальное выравнивание по центру */
-}
-
-/* Стиль заголовка "Новинки среди ноутбуков" */
-.left-h-34 {
-  color: #363a45;
-  text-align: left;
-  font-family: var(--h2-font-family, "TtNorms-Bold", sans-serif);
-  font-size: var(--h2-font-size, 32px);
-  line-height: var(--h2-line-height, 120%);
-  font-weight: var(--h2-font-weight, 700);
-  position: absolute;
-    white-space: nowrap;
-  left: 360px;
-  top: 815px;
-  width: 403px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль контейнера для карточек ноутбуков */
-.frame-159 {
-  display: flex;
-  flex-direction: row;
-  gap: 23px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 50%;
-  translate: -50% -50%;
-  top: 50%;
-  margin-top: 200px; /* Добавьте необходимое значение отступа */
-}
-
-/* Стиль футерного меню */
-.futer-menu {
-  width: 737px;
-  height: 171px;
-  position: absolute;
-  left: 817px;
-  top: 1454px;
-}
-
-/* Стиль фона футерного меню */
-.rectangle-462 {
-  background: rgba(95, 22, 93, 0.4);
-  width: 1920px;
-  height: 212px;
-  position: absolute;
-  left: -817px;
-  top: -24px;
-}
-
-/* Стиль колонки меню "Доска объявлений" */
-.frame-52 {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 204px;
-  top: 2px;
-}
-
-/* Стиль заголовка колонки меню */
-.left-h-35 {
-  color: var(--dark-grey, #363a45);
-  text-align: left;
-  font-family: var(--menu-style-bold-font-family, "TtNorms-Bold", sans-serif);
-  font-size: var(--menu-style-bold-font-size, 14px);
-  line-height: var(--menu-style-bold-line-height, 150%);
-  font-weight: var(--menu-style-bold-font-weight, 700);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль ссылок в колонке меню */
-.left-h-36 {
-  color: var(--dark-grey, #363a45);
-  text-align: left;
-  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--futer-style-font-size, 12px);
-  line-height: var(--futer-style-line-height, 140%);
-  font-weight: var(--futer-style-font-weight, 500);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль колонки меню "Интернет-магазин" */
-.frame-49 {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 443px;
-  top: 0px;
-}
-
-/* Стиль колонки меню "Пользователям" */
-.frame-48 {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 683px;
-  top: 0px;
-}
-
-/* Стиль нижней части футерного меню */
-.down {
-  display: flex;
-  flex-direction: row;
-  gap: 48px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: -602px;
-  top: calc(50% - -68.5px);
-}
-
-/* Стиль ссылок в нижней части футерного меню */
-.div5 {
-  color: #363a45;
-  text-align: right;
-  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--futer-style-font-size, 12px);
-  line-height: var(--futer-style-line-height, 140%);
-  font-weight: var(--futer-style-font-weight, 500);
-  position: relative;
-}
-
-/* Стиль ссылки "Использование cookies" */
-.cookies {
-  color: #363a45;
-  text-align: right;
-  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--futer-style-font-size, 12px);
-  line-height: var(--futer-style-line-height, 140%);
-  font-weight: var(--futer-style-font-weight, 500);
-  position: relative;
-}
-
-/* Стиль логотипа Dily.ru */
-.left-h-37 {
-  color: #363a45;
-  text-align: left;
-  font-family: var(--menu-style-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--menu-style-font-size, 14px);
-  line-height: var(--menu-style-line-height, 150%);
-  font-weight: var(--menu-style-font-weight, 500);
-  position: absolute;
-  right: 5px;
-  top: calc(50% - -68.5px);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль года в футере */
-.left-h-38 {
-  color: #363a45;
-  text-align: left;
-  font-family: var(--menu-style-font-family, "TtNorms-Medium", sans-serif);
-  font-size: var(--menu-style-font-size, 14px);
-  line-height: var(--menu-style-line-height, 150%);
-  font-weight: var(--menu-style-font-weight, 500);
-  position: absolute;
-  right: -57.13px;
-  top: calc(50% - -68.5px);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Стиль изображения */
-.image-76 {
-  width: 279px;
-  height: 76px;
-  position: absolute;
-  left: 187px;
-  top: 1472px;
-  object-fit: cover;
-}
-
-/* Стиль промо-блока 1 */
-.promo-1 {
-  width: 640px;
-  height: 180px;
-  position: static;
-}
-
-/* Стиль фона промо-блока 1 */
-.rectangle-56 {
-  background: #e2d5e2;
-  border-radius: 8px;
-  width: 640px;
-  height: 180px;
-  position: absolute;
-  left: 310px;
-  top: 1189px;
-}
-
-/* Стиль текста промо-блока 1 */
-._30-xiaomi {
-  color: var(--text-main, #070c11);
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 28px;
-  line-height: 120%;
-  font-weight: 400;
-  position: absolute;
-  left: 360px;
-  top: 1239px;
-  width: 334px;
-}
-
-/* Стиль изображения в промо-блоке 1 */
-.image {
-  width: 179px;
-  height: 172px;
-  position: absolute;
-  left: 741px;
-  top: 1193px;
-  object-fit: cover;
-}
-
-/* Стиль промо-блока 2 */
-.promo-2 {
-  width: 640px;
-  height: 180px;
-  position: static;
-}
-
-/* Стиль фона промо-блока 2 */
-.rectangle-562 {
-  background: #e2d5e2;
-  border-radius: 8px;
-  width: 640px;
-  height: 180px;
-  position: absolute;
-  left: 970px;
-  top: 1189px;
-}
-
-/* Стиль текста промо-блока 2 */
-.div6 {
-  color: var(--text-main, #070c11);
-  text-align: left;
-  font-family: "Exo2-Bold", sans-serif;
-  font-size: 28px;
-  line-height: 120%;
-  font-weight: 700;
-  position: absolute;
-  left: 1020px;
-  top: 1239px;
-  width: 188px;
-}
-
-/* Стиль изображения в промо-блоке 2 */
-.pngw-ing-1 {
-  width: 139px;
-  height: 158px;
-  position: absolute;
-  left: 1421px;
-  top: 1200px;
-  object-fit: cover;
-}
-
-/* Стиль иконки */
-.div7 {
+.div17 {
   border-radius: 0px;
   width: 1.09%;
-  height: 1.22%;
+  height: 2.03%;
   position: absolute;
   right: 23.23%;
   left: 75.68%;
-  bottom: 96.41%;
-  top: 2.38%;
+  bottom: 94%;
+  top: 3.97%;
   overflow: visible;
 }
-
-/* Стиль иконки */
-.div8 {
+.div18 {
   width: 0.89%;
-  height: 1.22%;
+  height: 2.03%;
   position: absolute;
   right: 28.39%;
   left: 70.73%;
-  bottom: 96.41%;
-  top: 2.38%;
+  bottom: 94%;
+  top: 3.97%;
   overflow: visible;
 }
-
-/* Стиль иконки */
-.div9 {
+.div19 {
   width: 1.04%;
-  height: 1.08%;
+  height: 1.8%;
   position: absolute;
   right: 25.83%;
   left: 73.12%;
-  bottom: 96.48%;
-  top: 2.44%;
+  bottom: 94.13%;
+  top: 4.07%;
   overflow: visible;
 }
-/* Стиль текста кнопки "Войти" */
-.sign-in {
+.sign-in2 {
   background: #5f165d;
   border-radius: 4px;
-  padding: 10px 20px;
-  display: inline-flex;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  font-family: "Exo2-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-  cursor: pointer;
+  width: 5.16%;
+  height: 4.88%;
   position: absolute;
-  top: 30px; /* Расположение сверху */
-  right: 300px; /* Расположение справа */
-  text-decoration: none; /* Убираем подчеркивание ссылки */
+  right: 13.7%;
+  left: 81.15%;
+  bottom: 92.88%;
+  top: 2.24%;
 }
-.sign-in:hover {
-  background: #7f327f; /* Цвет при наведении */
-}
-/* Стиль текста кнопки "Войти" */
-.div10 {
-  color: inherit;
-  text-align: left;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-weight: inherit;
-  position: relative;
-}
-
-
-/* Стиль поля поиска */
 .frame-25 {
   background: var(--medium-grey, #dadcdc);
   border-radius: 0px 5px 5px 0px;
@@ -585,17 +525,15 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 4.64%;
-  height: 1.71%;
+  height: 2.85%;
   position: absolute;
   right: 36.46%;
   left: 58.91%;
-  bottom: 96.16%;
-  top: 2.13%;
+  bottom: 93.59%;
+  top: 3.56%;
   overflow: hidden;
 }
-
-/* Стиль текста в поле поиска */
-.left-h-39 {
+.left-h-3 {
   color: #363a45;
   text-align: left;
   font-family: var(--button-style-font-family, "TtNorms-Medium", sans-serif);
@@ -609,8 +547,6 @@
   align-items: center;
   justify-content: flex-start;
 }
-
-/* Стиль строки поиска */
 .frame-153 {
   border-style: solid;
   border-color: rgba(173, 173, 173, 0.7);
@@ -622,15 +558,13 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 14.32%;
-  height: 1.71%;
+  height: 2.85%;
   position: absolute;
   right: 41.09%;
   left: 44.58%;
-  bottom: 96.16%;
-  top: 2.13%;
+  bottom: 93.59%;
+  top: 3.56%;
 }
-
-/* Стиль иконки поиска */
 .icon-search-off {
   flex-shrink: 0;
   width: 10px;
@@ -638,9 +572,7 @@
   position: relative;
   overflow: visible;
 }
-
-/* Стиль текста в строке поиска */
-.left-h-310 {
+.left-h-32 {
   color: #363a45;
   text-align: left;
   font-family: "TtNorms-Regular", sans-serif;
@@ -655,29 +587,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-
-/* Стиль изображения */
-.group-559 {
-  width: 644px;
-  height: 274px;
-  position: absolute;
-  left: 334px;
-  top: 170px;
-  object-fit: cover;
-}
-
-/* Стиль изображения */
-.group-558-1 {
-  width: 654px;
-  height: 282px;
-  position: absolute;
-  left: 931px;
-  top: 166px;
-  object-fit: cover;
-}
-
-/* Стиль изображения */
-.image-75 {
+.image-78 {
   width: 266px;
   height: 69px;
   position: absolute;
@@ -685,124 +595,145 @@
   top: 12px;
   object-fit: cover;
 }
-
-/* Стили для кнопок "лайк" в карточках товаров */
-.btn-like-default2,
-.btn-like-default3,
-.btn-like-default4,
-.btn-like-default5,
-.btn-like-default6,
-.btn-like-default7,
-.btn-like-default8,
-.btn-like-default9,
-.btn-like-default10 {
-  width: 7.44%;
-  height: 5.6%;
+.futer-menu {
+  width: 737px;
+  height: 171px;
   position: absolute;
-  right: 6.98%;
-  left: 85.58%;
-  bottom: 88.4%;
-  top: 6%;
-  overflow: visible;
+  left: 817px;
+  top: 795px;
 }
-
-/* Стиль изображения товара в карточке */
-.frame-782 {
-  width: 100%;
-  height: 166px;
+.rectangle-462 {
+  background: rgba(95, 22, 93, 0.4);
+  width: 1920px;
+  height: 212px;
   position: absolute;
-  right: 0%;
-  left: 0%;
-  top: calc(50% - 125px);
-  object-fit: cover;
+  left: -817px;
+  top: -24px;
 }
-
-/* Стиль изображения товара с трансформацией */
-.frame-783 {
-  width: 100%;
-  height: 166px;
-  position: absolute;
-  right: -100%;
-  left: 100%;
-  top: calc(50% - 125px);
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
-  object-fit: cover;
-}
-/* Модальное окно */
-.modal {
-  display: none; /* Скрыто по умолчанию */
-  position: absolute; /* при прокрутке страницы */
-  z-index: 1; /* На переднем плане */
-  left: 17%; /* Центрирование по горизонтали */
-  top: 16%; /* Центрирование по вертикали */
-  width: 300px; /* Уменьшенная ширина */
-  height: 370px; /* Уменьшенная высота */
-  background-color: #fefefe;
-  border: 1px solid #888;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-}
-
-/* Контент модального окна */
-.modal-content {
+.frame-52 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  height: 100%;
-  overflow-y: auto; /* Добавляем прокрутку по вертикали, если контент слишком большой */
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 204px;
+  top: 2px;
 }
-
-/* Закрывающая кнопка */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
+.left-h-33 {
+  color: var(--dark-grey, #363a45);
+  text-align: left;
+  font-family: var(--menu-style-bold-font-family, "TtNorms-Bold", sans-serif);
+  font-size: var(--menu-style-bold-font-size, 14px);
+  line-height: var(--menu-style-bold-line-height, 150%);
+  font-weight: var(--menu-style-bold-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
+.left-h-34 {
+  color: var(--dark-grey, #363a45);
+  text-align: left;
+  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--futer-style-font-size, 12px);
+  line-height: var(--futer-style-line-height, 140%);
+  font-weight: var(--futer-style-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-/* Стили для второго модального окна */
-#brandModal {
-  display: none; /* Скрыто по умолчанию */
-  z-index: 2; /* На переднем плане над первым модальным окном */
-  left: 550px;
-  top: 150px;
-  width: 190px; /* Уменьшенная ширина */
-  height: 220px; /* Уменьшенная высота */
-  background-color: #fefefe;
-  border: 1px solid #888;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-}
-
-/* Контент второго модального окна */
-#brandModal .modal-content {
+.frame-49 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  height: 100%;
-  overflow-y: auto; /* Добавляем прокрутку по вертикали, если контент слишком большой */
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 443px;
+  top: 0px;
 }
-
-/* Закрывающая кнопка для второго модального окна */
-#brandModal .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 683px;
+  top: 0px;
 }
-
-#brandModal .close:hover,
-#brandModal .close:focus {
-  color: black;
-  text-decoration: none;
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: -602px;
+  top: calc(50% - -68.5px);
+}
+.div20 {
+  color: #363a45;
+  text-align: right;
+  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--futer-style-font-size, 12px);
+  line-height: var(--futer-style-line-height, 140%);
+  font-weight: var(--futer-style-font-weight, 500);
+  position: relative;
+}
+.cookies {
+  color: #363a45;
+  text-align: right;
+  font-family: var(--futer-style-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--futer-style-font-size, 12px);
+  line-height: var(--futer-style-line-height, 140%);
+  font-weight: var(--futer-style-font-weight, 500);
+  position: relative;
+}
+.group-53 {
+  position: absolute;
+  inset: 0;
+}
+.left-h-35 {
+  color: #363a45;
+  text-align: left;
+  font-family: var(--menu-style-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--menu-style-font-size, 14px);
+  line-height: var(--menu-style-line-height, 150%);
+  font-weight: var(--menu-style-font-weight, 500);
+  position: absolute;
+  right: 5px;
+  top: calc(50% - -68.5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.left-h-36 {
+  color: #363a45;
+  text-align: left;
+  font-family: var(--menu-style-font-family, "TtNorms-Medium", sans-serif);
+  font-size: var(--menu-style-font-size, 14px);
+  line-height: var(--menu-style-line-height, 150%);
+  font-weight: var(--menu-style-font-weight, 500);
+  position: absolute;
+  right: -57.13px;
+  top: calc(50% - -68.5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div21 {
+  width: 279px;
+  height: 76px;
+  position: static;
+}
+.image-76 {
+  width: 279px;
+  height: 76px;
+  position: absolute;
+  left: 187px;
+  top: 813px;
+  object-fit: cover;
 }
